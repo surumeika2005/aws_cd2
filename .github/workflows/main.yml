@@ -1,11 +1,11 @@
 name: AWS Code Deploy
 
 on:
-push:
+ push:
   branches: [ main ]
 
 jobs:
-build:
+ build:
   runs-on: ubuntu-latest
 
   steps:
